@@ -12,7 +12,7 @@ The data in this repository has been scraped from the TramTracker service for a 
 queries sent every 5 minutes. Only a few stops of interest are queried.
 
 The data is in reasonably raw form, and thus offers some useful training in preprocessing and tidying,
-as well as a visualization challenge.
+ dealing with missing data (there was a format change), as well as a visualization challenge. 
 
 ## Data outline
 

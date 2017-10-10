@@ -31,7 +31,7 @@ this.query <- lapply(stopID, getStopData)
 this.query <- dplyr::bind_rows(this.query)
 
 dd <- format(Sys.time(), "%Y%m%d")
-thefile <- paste0("queries_58_", dd, ".Rda")
+thefile <- file.path("Data", paste0("queries_58_", dd, ".Rda"))
 
 queries58 <- NULL
 if (file.exists(thefile)) {
